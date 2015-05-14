@@ -1,6 +1,6 @@
 {
   "name": "ndarray-lup-factorization-2",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "LU factorization with pivoting for ndarrays",
   "main": "lib/index.js",
   "scripts": {
@@ -30,6 +30,9 @@
     "ndgemm": "0.0.0"
   },
   "dependencies": {
-    "ndarray-blas-level1": "^1.0.5"
+    "ndarray-blas-level1": "^1.0.5",
+    "ndarray-blas-trsv": "^1.0.1",
+    "ndarray-diagonal": "^1.0.0",
+    "ndarray-ops": "^1.2.2"
   }
 }
