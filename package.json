@@ -1,0 +1,34 @@
+{
+  "name": "ndarray-lup-factorization-2",
+  "version": "1.0.0",
+  "description": "LU factorization with pivoting for ndarrays",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scijs/ndarray-lup-factorization-2.git"
+  },
+  "keywords": [
+    "linear-algebra",
+    "lup",
+    "factorization",
+    "lu",
+    "scijs",
+    "ndarray"
+  ],
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "ndarray": "^1.0.16",
+    "ndarray-diagonal": "^1.0.0",
+    "ndarray-scratch": "^1.1.1",
+    "ndarray-tests": "^1.1.4",
+    "ndgemm": "0.0.0"
+  },
+  "dependencies": {
+    "ndarray-blas-level1": "^1.0.5"
+  }
+}
