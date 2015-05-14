@@ -31,3 +31,7 @@ Returns:
 
 Returns:
 `true` upon successful completion; `false` otherwise.
+
+## Credits
+(c) 2015 Ricky Reusser. MIT License
+
