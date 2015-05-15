@@ -23,7 +23,7 @@ describe('LUP',function() {
   })
 
   it('factors a matrix into L, U, and P',function() {
-    assert( lup.factorize(A, L, P), 'returns true on success')
+    assert( lup(A, L, P), 'returns true on success')
 
     var Aexp = ndarray([8,7,9,5, ,7/4,9/4,17/4, 0,0,-6/7,-2/7, 0,0,0,2/3],[4,4])
     var Lexp = ndarray([1,0,0,0, 3/4,1,0,0, 1/2,-2/7,1,0, 1/4,-3/7,1/3,1],[4,4])
@@ -46,7 +46,7 @@ describe('LUP',function() {
   })
 
   it('factors a matrix into LU and P',function() {
-    assert( lup.factorize(A, A, P), 'returns true on success')
+    assert( lup(A, A, P), 'returns true on success')
 
     //console.log('LU = \n'+show(A.transpose(1,0)))
 
@@ -58,6 +58,7 @@ describe('LUP',function() {
 
   })
 
+  /*
   xit('solves Ax=b',function() {
     var x = ndarray([13,38,102,107])
     var bExp = ndarray([2,5,4,3])
@@ -72,6 +73,6 @@ describe('LUP',function() {
     assert( ndt.approximatelyEqual( x, bExp ) )
 
 
-  })
+  })*/
 })
 
