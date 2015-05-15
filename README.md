@@ -1,3 +1,5 @@
+# ndarray-lup-factorization-2 is deprecated. Please use [ndarray-lup-factorization](https://www.npmjs.com/package/ndarray-lup-factorization) instead.
+
 # ndarray-lup-factorization-2
 
 [![Build Status](https://travis-ci.org/scijs/ndarray-lup-factorization-2.svg?branch=master)](https://travis-ci.org/scijs/ndarray-lup-factorization-2) [![npm version](https://badge.fury.io/js/ndarray-lup-factorization-2.svg)](http://badge.fury.io/js/ndarray-lup-factorization-2)  [![Dependency Status](https://david-dm.org/scijs/ndarray-lup-factorization-2.svg)](https://david-dm.org/scijs/ndarray-lup-factorization-2)
