@@ -1,8 +1,6 @@
-# ndarray-lup-factorization-2 is deprecated. Please use [ndarray-lup-factorization](https://www.npmjs.com/package/ndarray-lup-factorization) instead.
+# ndarray-lup-factorization
 
-# ndarray-lup-factorization-2
-
-[![Build Status](https://travis-ci.org/scijs/ndarray-lup-factorization-2.svg?branch=master)](https://travis-ci.org/scijs/ndarray-lup-factorization-2) [![npm version](https://badge.fury.io/js/ndarray-lup-factorization-2.svg)](http://badge.fury.io/js/ndarray-lup-factorization-2)  [![Dependency Status](https://david-dm.org/scijs/ndarray-lup-factorization-2.svg)](https://david-dm.org/scijs/ndarray-lup-factorization-2)
+[![Build Status](https://travis-ci.org/scijs/ndarray-lup-factorization.svg?branch=master)](https://travis-ci.org/scijs/ndarray-lup-factorization) [![npm version](https://badge.fury.io/js/ndarray-lup-factorization.svg)](http://badge.fury.io/js/ndarray-lup-factorization)  [![Dependency Status](https://david-dm.org/scijs/ndarray-lup-factorization.svg)](https://david-dm.org/scijs/ndarray-lup-factorization)
 
 LU factorization with pivoting for ndarrays
 
@@ -16,14 +14,14 @@ For an alternate version, see: [ndarray-lup-factorization](https://github.com/sc
 
 ## Installation
 
-`npm install ndarray-lup-factorization-2`
+`npm install ndarray-lup-factorization`
 
 ## Usage
 
 Sample usage:
 
 ```javascript
-var lup = require('ndarray-lup-factorization-2')
+var lup = require('ndarray-lup-factorization')
 
 var P = [],
     A = ndarray([1,2,6,3],[2,2])
