@@ -1,5 +1,5 @@
 {
-  "name": "ndarray-lup-factorization-2",
+  "name": "ndarray-lup-factorization",
   "version": "2.0.5",
   "description": "LU factorization with pivoting for ndarrays",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scijs/ndarray-lup-factorization-2.git"
+    "url": "git://github.com/scijs/ndarray-lup-factorization.git"
   },
   "keywords": [
     "linear-algebra",
